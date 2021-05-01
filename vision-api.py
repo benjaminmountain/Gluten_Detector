@@ -26,7 +26,6 @@ def detect_text(path):
         string+=' ' + text.description
     return string
 
-
 gluten_flag = 0;
 j = 0
 cap = cv2.VideoCapture(0)
