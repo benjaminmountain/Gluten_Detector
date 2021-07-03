@@ -30,7 +30,7 @@ gluten_flag = 0;
 j = 0
 cap = cv2.VideoCapture(0)
 
-# Take 10 images then exit if no gluten detected
+# Take 8 images then exit if no gluten detected
 while not gluten_flag and j < 8:
     # Capture frame-by-frame
     ret, frame = cap.read()
